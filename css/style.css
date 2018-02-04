@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    color: inherit;
+    -webkit-font-smoothing: antialiased;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    font-size: 11px;
+    color: #2d2a2b;
+}
+
+img {
+    border: none;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: auto !important;
+    position: relative;
+    background-color: #ebebeb;
+    font-size: 13px;
+    color: #464646;
+    margin: auto;
+
+}
+section {
+    background-color: #ebebeb;
+}
+.whiteblock {
+    background-color: #ffffff;
+    width: 50%; height: 1650px;
+    /*padding: 431px 86px 418px 66px;*/
+    float: left;
+    margin-bottom: 50px;
+
+}
+.uppertext {
+    color: #464646;
+    font-size: 24px;
+    margin: 430px 95px 0 65px;
+
+}
+.text {
+    color: #464646;
+    font-size: 24px;
+    margin: 63px 95px 0 65px;
+
+}
+.blocks {
+    margin-top: 418px;
+    font-size: 20px;
+}
+
+.block {
+    display: inline-block;
+    width: 24.5%;
+    float: left;
+
+}
+.block span {
+    display: block;
+    color: #1f2c39;
+    padding: 25px 0 0 27px;
+    border-right: #1f2c39 solid;
+}
+.block.blue span {
+        color: #03246c;
+    border-right: #03246c solid;
+
+}
+.block.green span {
+    color: #028090;
+    border-right: #028090 solid;
+
+}
+.block.green-2 span {
+    color: #28aeaf;
+    border-right: #28aeaf solid;
+}
+
+
+
+.block .top {
+
+    background-color: #1f2c39;
+    padding-left: 44px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: white;
+    line-height: 40px;
+
+}
+.blue .top {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: #03246c;
+    color: white;
+    border-right: #03246c solid 1px;
+
+}
+.green .top {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: #028090;
+    color: white;
+
+
+}
+.green-2 .top {
+    background-color: #28aeaf;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    color: white;
+}
+.clearfix {
+    clear: both;
+}
